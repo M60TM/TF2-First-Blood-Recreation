@@ -1,5 +1,5 @@
 # [TF2] First-Blood-Recreation
-Simple plugin that recreation of arena first-blood with some ConVars.
+Simple plugin that recreation of arena first-blood with some ConVars. This also supports Non-Arena-Gamemodes too.
 
 ## ConVar
 ```
@@ -10,7 +10,7 @@ tf_fbr_limit(def = "0.0"): The Time limit of getting first blood critical. It is
 ```
 
 ## Note
-* Don't use this with plugins that need to set `tf_arena_first_blood`. This plugin automatically toggles it when `tf_fbr_enabled`'s value is changed.
+* Don't use this plugin with plugins that need to change `tf_arena_first_blood`. This plugin automatically toggles it when `tf_fbr_enabled`'s value is changed.
 
 ----
 
